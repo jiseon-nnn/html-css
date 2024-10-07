@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    font-family: monospace;
+    background-color:aliceblue;
+    margin: 10px auto auto ;
+}
+html{
+    box-sizing: border-box;
+    font-family: monospace;
+    background-color:aliceblue;
+}
+#title{
+    font-size: 28px;
+    font-weight: 650;
+    color: rgb(20%, 30%, 70%)
+}
+#img{
+    width: 200px;
+    border-radius: 200px;
+    display: block;
+}
+h1, h2{
+    text-align: center;
+}
+.subtitle{
+    font-size: 1.4em;
+    font-weight: 700;
+}
+div{
+    box-sizing: border-box;
+    width: 650px;
+    margin: auto;
+    background-color: whitesmoke;
+    border: 1px gainsboro;
+    border-style:groove;
+    padding: 10px 60px 40px;
+    border-radius: 10px;
+}

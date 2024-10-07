@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    padding: 100px 100px;
+    background-color: whitesmoke;
+}
+body{
+    height: 100%;
+    margin: 0;
+}
+.chat{
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 500px;
+    height: 100%;
+    margin: auto;
+    border: 0.2px solid gray;
+    box-shadow: gainsboro 0 2px 2px 1px;
+    background-color: rgb(23, 128, 234);
+}
+.top{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding: 15px;
+    font-weight: 700;
+}
+.container{
+    height: calc(100% - 50px);
+    border: 0.2px solid gray;
+    border-radius: 10px;
+
+}
+.mid{
+    background-color: white;
+    height: 559px;
+
+}
+.input{
+    resize: none;
+    float: left;
+    width: 410px;
+    height: 50px;
+    outline: none;
+    padding: 12px;
+    border: 0;
+    border-radius: 0 0 0 10px;
+}
+.input::placeholder{
+    font-size: 20px;
+    
+}
+.button{
+    float: right;
+    border: none;
+    width: 89px;
+    height: 50px;
+    background-color: rgb(23, 128, 234);
+    border-radius: 0 0 10px 0;
+    font-size: 16px;
+    color: white;
+}
+.button:active{
+    background-color: darkblue;
+}

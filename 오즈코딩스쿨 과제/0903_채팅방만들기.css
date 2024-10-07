@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    padding: 20px;
+    margin: 0;
+    background-color: black;
+}
+.container{
+    background-color: white;
+    border-radius: 40px;
+    width: 420px;
+    height: 580px;
+    padding: 20px;
+    margin: auto;
+}
+/* 상단 프로필 정보 */
+.oz{
+    padding: 3px;
+    height: 70px;
+}
+.back{
+    width: 20px;
+    height: 20px;
+    font-size: 25px;
+    float: left;
+    transform: translate(7px, 10px);
+}
+.t_img{
+    border-radius: 17px;
+    width: 45px;
+    height: 45px;
+    float: left;
+    margin: 0 10px 0 40px;
+}
+
+.oz_column{
+    display: inline-block;
+    float: left;
+    transform: translate(0, 5px);
+}
+.oz_profile{
+    font-weight: 900;
+    font-size: 19px;
+}
+/* 공지바 */
+.oz_back{
+    color: rgb(182, 181, 181);
+}
+.notice{
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 2px 10px 2px 15px;
+    border-radius: 15px;
+    font-size: 14px;
+    color: rgb(161, 160, 160);
+    font-weight: 600;
+}
+/* 메세지 창 */
+
+.profile{
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+.bd_img{
+    border-radius: 30px;
+    width: 80px;
+    height: 80px;
+}
+h3{
+    margin: 10px 0 0 0;
+    font-weight: 800;
+}
+.bd_msg{
+    margin: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(161, 160, 160);
+}
+.date_time{
+    text-align: center;
+    font-size: 12px;
+    position:relative;
+    padding: 30px 0 10px 0;
+    color: rgb(161, 160, 160);
+    font-weight: 600;
+}
+.oz_name, .time{
+    padding-left: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    padding-left: 7px;
+    color: rgb(161, 160, 160);
+    margin: 5px;
+}
+.oz_msg{
+    background-color: whitesmoke;
+    width: 310px;
+    padding: 15px;
+    border-radius: 20px 20px 20px 5px;
+    margin: 0;
+}
+.me_msg{
+    background-color: gray;
+    width: 245px;
+    padding: 15px;
+    border-radius: 20px 20px 20px 5px;
+    color: white;
+    margin: 7px 0 0 0;
+}
+.me_container{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.me{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.chat-form{
+    background-color: whitesmoke;
+    margin: 0;
+    height: 60px;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 14px;
+    color: rgb(161, 160, 160);
+    font-weight: 600;
+}
+.chat-form_msg{
+    width: 310px;
+    outline: none;
+    border: none;
+    background-color: whitesmoke;
+    resize: none;
+}
+.chat-form_bt{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    float: right;
+    color: white;
+    background-color: rgb(219, 218, 218);
+    border: none;
+}
+.scroll{
+    position: relative;
+    overflow: scroll;
+    scrollbar-width: none;
+}
